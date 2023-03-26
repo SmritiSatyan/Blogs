@@ -66,7 +66,8 @@ If KMO value is closer to 0, this indicates that the data contains large number 
 - Values between 0.90 and 1.00 are considered to be absolutely fantastic.
 
 The formula to perform KMO test is:
-![formula](formula.png)
+![formula](./formula.png)
+
 Here, R =  which is the correlation matrix;
 and U =  which is the partial covariance matrix. 
 Once relevant data has been collected, factor analysis can be performed in a variety of ways. 
