@@ -4,7 +4,7 @@ A workflow's dependencies on data and infrastructure complicate its maintenance 
 
 [Flyte](https://github.com/flyteorg) is your one-stop solution to resolve these data and infrastructure dependencies, focus on the business logic, and improve the efficiency of your machine learning model.
 
-# What is Flyte?
+## What is Flyte?
 Flyte is a distributed workflow automation platform that is
 - Open source
 - Kubernetes-built
@@ -59,12 +59,12 @@ An [execution](https://docs.flyte.org/en/latest/concepts/executions.html) is an 
 
 ### Customization
 - Out of the box support to run Spark jobs on K8s, Hive queries, and more.
-- Customizable user classes to suit specific requirements.
-- Integrations (SQL, Pandera, Modin) to extend Flyte, if you are ready to take a deep-dive!
+- [Customizable](https://docs.flyte.org/en/latest/deployment/configuration/customizable_resources.html#deployment-configuration-customizable-resources) user classes to suit specific requirements.
+- [Integrations](https://docs.flyte.org/projects/cookbook/en/latest/integrations.html) ([SQL](https://docs.flyte.org/projects/cookbook/en/latest/auto_examples/sql_plugin/index.html), [Pandera](https://docs.flyte.org/projects/cookbook/en/latest/auto_examples/pandera_plugin/index.html), [Modin](https://docs.flyte.org/projects/cookbook/en/latest/auto_examples/modin_plugin/index.html)) to extend Flyte, if you are ready to take a deep-dive!
 
 ### Miscellaneous
 - Ability to iterate through models.
-- User-friendly SDKs to run the workflows.
+- User-friendly [SDKs](https://docs.flyte.org/projects/flytekit/en/latest/) to run the workflows.
 - Ability to generate dynamic graphs to take decisions during run-time (such as tuning hyperparameters during execution, programmatically stopping the training in case of surging errors, modifying logic of code dynamically, and building AutoML pipelines).
 
 ## Conclusion
